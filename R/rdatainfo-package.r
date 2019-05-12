@@ -1,8 +1,6 @@
-#' Tools and utilities to ...
+#' Tools and utilities to assist in macOS QuickLook ops
 #' @name rdatainfo
 #' @docType package
-#' @author Bob Rudis (@@hrbrmstr)
-# @import httr dplyr stringi devtools purrr tidyr readr
-# @importFrom Rcpp evalCpp
-# @useDynLib rdatainfo
+#' @author Bob Rudis (bob@@rud.is)
+#' @import tools
 NULL

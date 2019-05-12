@@ -4,11 +4,10 @@
 \name{rdatainfo}
 \alias{rdatainfo}
 \alias{rdatainfo-package}
-\title{Tools and utilities to ...}
+\title{Tools and utilities to assist in macOS QuickLook ops}
 \description{
-Tools and utilities to ...
+Tools and utilities to assist in macOS QuickLook ops
 }
 \author{
-Bob Rudis (@hrbrmstr)
+Bob Rudis (bob@rud.is)
 }
-
