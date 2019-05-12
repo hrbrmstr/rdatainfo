@@ -4,7 +4,7 @@ get_info <- function(path) {
   path <- gsub("file://", "", path)
   denv <- new.env()
 
-  ext <- tools::file_ext(path)
+  ext <- tolower(tools::file_ext(path))
 
   if (ext == "rds") {
 
@@ -17,7 +17,7 @@ get_info <- function(path) {
       ), "\n\n", sep=""
     )
 
-  } else if (ext == "rda") {
+  } else if (ext %in% c("rda", "rdata")) {
 
     load(path, denv)
 

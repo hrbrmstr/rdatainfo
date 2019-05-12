@@ -2,7 +2,8 @@ Package: rdatainfo
 Title: Tools and utilities to Assist in 'macOS' QuickLook Ops
 Version: 0.1.0
 Authors@R: c(person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre")))
-Description: What the package does (one paragraph).
+Description: Provides support for the 'QuickLookR' 'macOS' 'QuickLook' plugin
+    (<https://github.com/hrbrmstr/QuickLookR>).
 Depends:
     R (>= 3.3.1)
 License: MIT + file LICENSE

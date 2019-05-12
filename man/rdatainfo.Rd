@@ -6,7 +6,7 @@
 \alias{rdatainfo-package}
 \title{Tools and utilities to assist in macOS QuickLook ops}
 \description{
-Tools and utilities to assist in macOS QuickLook ops
+Provides support for the 'QuickLookR' 'macOS' 'QuickLook' plugin (\url{https://github.com/hrbrmstr/QuickLookR}).
 }
 \author{
 Bob Rudis (bob@rud.is)
