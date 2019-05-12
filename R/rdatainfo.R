@@ -1,6 +1,7 @@
 #' @export
 get_info <- function(path) {
 
+  path <- URLdecode(path)
   path <- gsub("file://", "", path)
   denv <- new.env()
 
